@@ -43,11 +43,9 @@
   - BeanFactory
     - 스프링 컨테이너의 최상위 인터페이스
     - 스프링 빈 관리, 조회
-  <br/></br>
   - ApplicationContext 
     - 빈팩토리 기능을 모두 상속받아 제공
     - 다른 부가 기능
-    <span style="color:grey">
       - MessageSource I
           - 국제화 기능
             - 예를 들어서 한국에서 들어오면 한국어로, 영어권에서 들어오면 영어로 출력
@@ -57,7 +55,6 @@
           - 이벤트 발행, 구독하는 모델을 지원
         - ResourceLoader I
           - 파일, 클래스패스, 외부 등에서 리소스 조회
-          </span>
 
   - *거의 ApplicationContext를 사용한다.*
 <br/></br>
