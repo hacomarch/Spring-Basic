@@ -53,6 +53,6 @@
       System.out.println("NetworkClient.close");
       disConnect();
       }
-    - 이 방법을 쓰자.
+    - **이 방법을 쓰자.**
     - 외부 라이브러리 적용은 안된다.
       - @Bean 의 initMethod, destroyMethod 사용 하자.
